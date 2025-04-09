@@ -65,7 +65,7 @@ ask(
 
 //задание 6
 function checkAge(age) {
-    return ((age > 18) ? true : confirm('Родители согласны?'));
+    return ((age > 18) ? alert(true) : confirm('Родители согласны?'));
 }
 
 let age = prompt('Введите возраст');
